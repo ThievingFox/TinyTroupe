@@ -5,7 +5,7 @@ from typing import List, Optional
 # 1) Import the main classes/functions from agent.py
 #    In this snippet, we assume agent.py is in the same directory.
 #    If it's in a sub-package, adjust the import accordingly.
-from agent import TinyPerson
+from tinytroupe.agent import TinyPerson
 
 app = FastAPI(title="TinyTroupe Agent API")
 
